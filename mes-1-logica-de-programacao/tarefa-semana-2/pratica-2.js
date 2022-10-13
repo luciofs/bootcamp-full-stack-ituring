@@ -15,9 +15,5 @@ exibeMensagem ("PNEU", "JOSI", "RUA A, QUADRA B")
 
 
 
-
-
-
-
 //Função 3 - Esta função terá 1 parâmetro: nome de quem enviou o email. Ela deverá exibir a seguinte informação na tela:
 
