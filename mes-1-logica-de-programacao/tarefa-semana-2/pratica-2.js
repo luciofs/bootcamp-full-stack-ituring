@@ -11,7 +11,7 @@ recebeNomeComprador ("Lucio")
 function exibeMensagem (nomeProd, nome, endereco) {
     console.log (" Fizemos a entrega do produto "+nomeProd, "no endereço "+endereco,", com sucesso!\n O seu produto foi recebido por: "+nome,". \n Esperamos que você esteja contente com o produto. \n Caso contrário, fale conosco em até 7 dias para que possamos ajudar.")
 }
-exibeMensagem ("PNEU", "JOSI", "RUA A, QUADRA B")
+exibeMensagem ("PNEU", "JOSI", "RUA A,e QUADRA B")
 
 
 
