@@ -1,4 +1,6 @@
-/*Programa exibe os números impares. Crie uma função que recebendo um número como argumento maior que zero, exiba com console.lig todos os números impares até chegar nesse número */
+/*Programa exibe os números impares. 
+Crie uma função que recebendo um número como argumento maior que zero, 
+exiba com console.log todos os números impares até chegar nesse número */
 
 
 
