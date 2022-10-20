@@ -19,4 +19,4 @@ function exibeNumerosImpares(num) {
         
 }
 
-exibeNumerosImpares(17);
+exibeNumerosImpares(55);
