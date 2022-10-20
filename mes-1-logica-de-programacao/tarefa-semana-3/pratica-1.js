@@ -15,4 +15,4 @@ function calculaTabuada(num) {
         
 }
 
-calculaTabuada(9);
+calculaTabuada(19);

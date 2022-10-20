@@ -5,7 +5,7 @@ function exibeNumeroDe1a10(){
     
     let i = 1;
 
-    while(i <= 100000) {
+    while(i <= 100) {
         console.log(i);
         i = i + 1;
     }
