@@ -7,18 +7,18 @@ e FALSE se ele não for primo. */
 
 
 function exibeNumerosPrimos(num) {
-    let i = 1;
+    let i = 2;
     console.log("\nVerificando se Número é PRIMO\n");
-    
-        if (num % 2 != 0 || num === 2) {
-            console.log("TRUE - O núemro "+num,"é primo")    
-        } else if {
-           (num % 2 === 0) 
+    while (i <= num){
 
+        if (num % i != 0 || num === 2) {
+            console.log("TRUE - O núemro "+num,"é primo")    
         } else {
             console.log("FALSE - O núemro "+num,"não é primo")
         }
-        
+        i++
+    }
+       
 }
 
 exibeNumerosPrimos(15);
