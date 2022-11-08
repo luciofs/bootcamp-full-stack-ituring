@@ -3,7 +3,7 @@ Bom, na tarefa da semana passada, você desenvolveu um algoritmo de ordenação!
 
 */
 
-lista = [4, 9, 7, 1, 8, 12]
-listaExemplo.forEach(function(item) {
-    console.log(`Valor: ${item} | Tipo: ${typeof(item)}`)
+lista = []
+listaExemplo.forEach(function(item)) {
+    console.log()
 }
