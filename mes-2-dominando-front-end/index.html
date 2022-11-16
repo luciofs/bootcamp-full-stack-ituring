@@ -8,48 +8,43 @@
     <style></style>
   </head>
   <body>
+    <!--Cabeçalho-->
     <header>
-      
-      <!--div logo-->
-      <div>
-        <img src="https://ituring.com.br/favicon.ico" alt="ITuring"/>
-      </div>
-      
+      <img src="https://ituring.com.br/favicon.ico" alt="ITuring"/>
       <!--div busca-->
       <div>
         <input type="text" title="Busca Por Produtos" value="" placeholder="Buscar por Produtos"/>
         <button>Buscar</button>
       </div>
-       
-      <!--div carrinho de compras-->
-      <div>
-        <a href="./carrinho.html" title="carrinho de compras" Carrinho de Compras </a>  
-      </div>
+      <link href="./carrinho.html" title="carrinho de compras" Carrinho de Compras />
+      <!-- <a> href="./carrinho.html" title="carrinho de compras" Carrinho de Compras </a> que não fecha--> 
     </header>
     
     <main>
       <!--div ordenar-->
-      <div>
+      <section>
+        <span>Ordenar por</span> <!--a dif de <N>p> e <span> este o texto fica na mesma linha-->
         <select> 
-          <option value="Price desc" Menor Preço></option>
-          <option value="Price asc" Maior Preço></option>
+          <option value="Price-desc" Menor Preço></option>
+          <option value="Price-asc" Maior Preço></option>
         </select>
-      </div>
-
+      </section>  
       <!--div container card-->
-      <div>
-          
-      </div>
-      
-      <!--div container image-->
-      <div>
-        <img src=""/>
-      </div>        
+      <section>
+        <!--div card-->
+        <div>
+          <img src="https://ituring.com.br/favicon.ico" alt="ITuring"/>
+          <hr />
+          <h3> R$ 120,00 </h3>
+          <h4> Descrição abaixo do card </h4>
+          <p>Texto abaixo do card</p>
+        </div>
+      </section>
     </main>
       
-    <!--div rodapé-->
+    <!--rodapé-->
     <footer>
-      <!-- -->
+      <span>Corpyright @ 2022</span> 
     </footer>
   </body>
 </html>
